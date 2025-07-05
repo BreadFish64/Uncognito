@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "version": "0.1.0",
+    "name": "Uncognito",
+    "icons": {
+        "48": "uncognito.svg"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "uncognito@breadfish64.com"
+        }
+    },
+    "background": {
+        "scripts": [
+            "dist/background.js"
+        ]
+    },
+    "page_action": {
+        "default_icon": "uncognito.svg",
+        "default_title": "Uncognito",
+        "show_matches": [ "<all_urls>" ]
+    },
+    "permissions": [
+        "activeTab",
+        "tabs"
+    ],
+    "incognito": "spanning"
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="480"
+   height="480"
+   viewBox="0 0 480 480"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="uncognito.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="2.0578704"
+     inkscape:cx="156.47244"
+     inkscape:cy="234.95163"
+     inkscape:window-width="3440"
+     inkscape:window-height="1369"
+     inkscape:window-x="2552"
+     inkscape:window-y="1432"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="logo_layer"
+     showgrid="false" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow"
+       refX="1"
+       refY="-1.5"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="0.3"
+       markerHeight="0.3"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="none"
+       markerUnits="strokeWidth">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8" />
+    </marker>
+  </defs>
+  <style
+     id="style1">
+      path,circle {
+         stroke: black;
+      }
+      @media (prefers-color-scheme: dark) {
+         path,circle { stroke: white; }
+      }
+  </style>
+  <g
+     inkscape:label="logo layer"
+     inkscape:groupmode="layer"
+     id="logo_layer">
+    <circle
+       style="fill:#000000;fill-opacity:0;stroke-width:48;stroke-dasharray:none;stroke-opacity:1"
+       id="left_eye"
+       cx="132"
+       cy="240"
+       r="84" />
+    <use
+       x="216"
+       y="0"
+       xlink:href="#left_eye"
+       id="right_eye" />
+    <path
+       style="fill:#000000;fill-opacity:0;stroke-width:48;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;marker-mid:url(#RoundedArrow)"
+       id="bottom_cycle"
+       sodipodi:type="arc"
+       sodipodi:cx="240"
+       sodipodi:cy="240"
+       sodipodi:rx="196"
+       sodipodi:ry="196"
+       sodipodi:start="0.78539816"
+       sodipodi:end="2.3561945"
+       sodipodi:arc-type="arc"
+       d="M 378.59293,378.59293 A 196,196 0 0 1 240,436 196,196 0 0 1 101.40707,378.59293"
+       sodipodi:open="true" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#bottom_cycle"
+       id="top_cycle"
+       transform="rotate(180,240,240)" />
+  </g>
+</svg>
