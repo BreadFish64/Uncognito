@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "webpack --mode=development",
-    "pack": "web-ext build --overwrite-dest",
+    "pack": "webpack --mode=development && web-ext build --overwrite-dest",
     "lint": "web-ext lint",
     "android": "web-ext run -t firefox-android --firefox-apk org.mozilla.fenix --adb-device"
   }
